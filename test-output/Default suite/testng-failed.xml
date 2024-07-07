@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parsingData.Parse">
+      <class name="auth.Authentications">
         <methods>
-          <include name="traverseRecord3"/>
+          <include name="Tokenauth"/>
         </methods>
-      </class> <!-- parsingData.Parse -->
+      </class> <!-- auth.Authentications -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

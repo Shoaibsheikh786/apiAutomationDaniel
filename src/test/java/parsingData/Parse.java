@@ -19,11 +19,12 @@ public class Parse {
 		.when()
 		 .get("https://reqres.in/api/users?page=2")
 		.then().log().body();
+		Assert.assertTrue(false);
 	}
 	
 	//first way to verify the response 
 	@Test
-	public void traverseRecord()
+	public void test()
 	{  
 		int jhonsId=9;
 		given()
@@ -42,7 +43,7 @@ public class Parse {
 			.when()
 			 .get("https://reqres.in/api/users?page=2");
 			
-// check is this emaail present or not in the recored "lindsay.ferguson@reqres.in"
+// check is this email present or not in the recored "lindsay.ferguson@reqres.in"
 			//value;
 			
 			int count=0;
@@ -81,9 +82,7 @@ public class Parse {
 				@Test
 				public void traverseRecord3()
 				{ 
-					
-
-							
+				
 					Response res=given()
 					.when()
 					 .get("https://reqres.in/api/users?page=2");
@@ -104,5 +103,6 @@ public class Parse {
 				Assert.assertTrue(sum<500);
 				
 				}
+				
 
 }
