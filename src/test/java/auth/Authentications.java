@@ -49,11 +49,7 @@ public class Authentications {
 	  System.out.println(user);
 	  System.out.println(pass);
 	  System.out.println(token);
-	  
 	
-		
-		
-		
 	}
 	
 	@Test

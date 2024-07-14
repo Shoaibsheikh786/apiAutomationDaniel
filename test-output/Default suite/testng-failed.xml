@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="auth.Authentications">
+      <class name="api.chaning.qa.CreateData">
         <methods>
-          <include name="Tokenauth"/>
+          <include name="generateData"/>
+          <include name="createData"/>
         </methods>
-      </class> <!-- auth.Authentications -->
+      </class> <!-- api.chaning.qa.CreateData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
